@@ -2,6 +2,40 @@ Lambda:
 - Building Block of Functional Programming
 - No Name -> Anonymous
 
+- Properties
+    -> Name of the function
+    -> Parameters list
+    -> Body of the function
+    -> Return type
+
+    -> Example:
+       1.Internal class anonymous
+       new Runnable(){
+        public void run(){
+            System.out.println("Thread Executed!");
+        }
+       }
+       2.
+        public void run(){
+            System.out.println("Thread Executed!");
+        }
+       3.
+        public void (){
+            System.out.println("Thread Executed!");
+        }
+       4.
+         void (){
+            System.out.println("Thread Executed!");
+        }
+       5.
+          (){
+            System.out.println("Thread Executed!");
+        }
+       6.
+          () -> {System.out.println("Thread Executed!");}
+       7.
+          () -> System.out.println("Thread Executed!");
+
 A functional interface in Java  has the following characteristics:
 - A Single Abstract Method (SAM): A functional interface has a single abstract method, know as the Single Abstract Method (SAM).
 This is the only method that must be implemented when using the interface.
