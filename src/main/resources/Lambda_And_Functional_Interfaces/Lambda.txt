@@ -36,6 +36,11 @@ Lambda:
        7.
           () -> System.out.println("Thread Executed!");
 
+Functional Interface:
+- Functional interface behind every lambda
+- Interface having single abstract method
+-
+
 A functional interface in Java  has the following characteristics:
 - A Single Abstract Method (SAM): A functional interface has a single abstract method, know as the Single Abstract Method (SAM).
 This is the only method that must be implemented when using the interface.
