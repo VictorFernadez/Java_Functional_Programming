@@ -2,8 +2,7 @@ package com.functional.lambda;
 
 public class LambdaExample1 {
     public static void main(String[] args) {
-        Runnable runnable = () -> System.out.println("Thread Executed!");
-        Thread thread = new Thread(runnable);
+        Thread thread = new Thread(() -> System.out.println("Thread Executed!"));
         thread.start();
     }
 }
