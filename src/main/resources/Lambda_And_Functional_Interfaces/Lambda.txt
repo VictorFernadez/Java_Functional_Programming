@@ -1,3 +1,12 @@
 Lambda:
 - Building Block of Functional Programming
 - No Name -> Anonymous
+
+A functional interface in Java  has the following characteristics:
+- A Single Abstract Method (SAM): A functional interface has a single abstract method, know as the Single Abstract Method (SAM).
+This is the only method that must be implemented when using the interface.
+- @FunctionalInterface Annotation: Although nor required, it is a good practice to use the @FunctionalInterface annotation to explicitly indicate
+that interface is functional. This annotation also causes the compiler to raise an error if more abstract methods are added to the interface.
+- Default  and Static Methods: A functional interface can have default and static methods, but these do not count as abstract methods.
+- Lambda Expression Support: Functional interfaces can be used as target types for lambda expressions and method references, making functional programming
+in Java easier.
