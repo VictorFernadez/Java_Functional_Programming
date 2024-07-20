@@ -49,3 +49,26 @@ that interface is functional. This annotation also causes the compiler to raise 
 - Default  and Static Methods: A functional interface can have default and static methods, but these do not count as abstract methods.
 - Lambda Expression Support: Functional interfaces can be used as target types for lambda expressions and method references, making functional programming
 in Java easier.
+
+Anonymous Classes:
+Advantages:
+- Simplicity and Conciseness -> They allow you to implement interfaces or extend classes in the same place where they are needed, reducing the amount of code.
+- Encapsulation -> They encapsulate the specific implementation within a method, making the code easier to read and maintain.
+- Task Focus -> These are useful for objects that are used only once, such as event handlers or callbacks.
+Access to Local Variables -> They can access the local variables of the method in which they are defined, as long as they are effectively final.
+
+Disadvantages:
+Readability -> They can make code less readable and more difficult to understand if they are complex or have a lot of code.
+Difficulty to Debug -> They are more difficult to debug and trace due to the lack of a specific name
+Limited Reuse -> They cannot be reused in different parts of the code without duplication.
+Complexity -> They can add complexity to the code, especially with multiple nesting.
+Generation of Additional .class Files -> Each anonymous class generates and additional .class file, which can complicate the project structure and increase the size of the resulting file.
+
+Alternatives:
+Static Inner Classes -> Reduce the number of .class files generated and can have meaningful names.
+Lambdas -> More concise and generate fewer .class files, ideal for functional interfaces.
+Separate Classes -> Improve code organization and avoid the proliferation of automatically generated .class files
+
+Lambda
+-> Pass Behavior as Parameter
+-> Declarative Programming

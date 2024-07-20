@@ -1,6 +1,6 @@
 package com.functional.lambda;
 
 @FunctionalInterface
-public interface MyFunInterface {
+public interface MyFunctionalInterface {
     void myMethod();
 }
