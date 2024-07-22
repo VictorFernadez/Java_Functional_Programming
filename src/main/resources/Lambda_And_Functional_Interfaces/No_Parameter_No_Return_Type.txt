@@ -1,0 +1,28 @@
+Method with no parameter, no return type
+
+public void myName(){
+System.out.println("John");
+
+1.Name
+public void(){
+System.out.println("John");
+}
+
+2.Return type
+public (){
+System.out.println("John");
+}
+
+3.Modifier
+ (){
+System.out.println("John");
+}
+
+4.Lambda by adding ->
+ () -> {
+System.out.println("John");
+}
+
+
+5.Remove {}
+() -> System.out.println("John");

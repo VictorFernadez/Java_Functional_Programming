@@ -1,0 +1,39 @@
+Method with  parameter and return type
+
+public int length (String s){
+    return s.length();
+}
+
+1.Name
+public int (String s){
+    return s.length();
+}
+
+2.Return type
+public (String s){
+    return s.length();
+}
+
+3.Modifier
+(String s){
+    return s.length();
+}
+
+4.Lambda by adding ->
+(String s) -> {
+    return s.length();
+}
+
+5.Parameter Type
+(s) -> {
+    return s.length();
+}
+
+
+6.Remove {}
+(s) -> return s.length();
+
+7.Remove return and () one parameter
+s -> s.length();
+
+

@@ -1,0 +1,35 @@
+Method with  parameter, no return type
+
+public void operation(int a, int b){
+    System.out.println(a + b);
+}
+
+1.Name
+public void (int a, int b){
+    System.out.println(a + b);
+}
+
+2.Return type
+public (int a, int b){
+    System.out.println(a + b);
+}
+
+3.Modifier
+(int a, int b){
+    System.out.println(a + b);
+}
+
+4.Lambda by adding ->
+(int a, int b) -> {
+    System.out.println(a + b);
+}
+
+5.Parameter Type
+(a,b) -> {
+    System.out.println(a + b);
+}
+
+
+6.Remove {}
+(a,b) -> System.out.println(a + b);
+
