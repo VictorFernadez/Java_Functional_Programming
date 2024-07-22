@@ -7,6 +7,6 @@ public class LambdaPractice3 {
             System.out.println("Length of the String is " + l);
             return l;
         };
-        len.length("Victor");
+        len.length("Siti Tesfaye");
     }
 }
